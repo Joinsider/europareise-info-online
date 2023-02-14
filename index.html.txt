@@ -1,0 +1,8 @@
+<html>
+	<head>
+		<title>Europareise Online Version Info</title>
+	</head>
+	<body>
+		<p>Test</p>
+	</body>
+</html>
