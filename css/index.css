@@ -1,10 +1,25 @@
-hody {
+body {
     background-color: black;
     color: white;
 }
 h1 {
     color: white;
     background-color: black;
-    size: 3em;
+    size: 2em;
   }
-  
+.heading{
+    background-color: black;
+    size: 3em;
+    padding: 1em;
+}
+.hamburger-menu{
+    background-color: aquamarine;
+    color: black;
+    size: 1em;
+    text-align: center;
+}
+nav{
+    background-color: darkolivegreen;
+    color: black;
+
+}

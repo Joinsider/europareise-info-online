@@ -1,11 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Europareise Online">
+    <meta name="description" content="Eine Onlinevariante des Brettspiels Europareise">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Beispiel-Webseite</title>
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <script src="js/index.js"></script>
+    <noscript>"Sorry aber dein Browser unterstützt leider kein JavaScript"</noscript>
   </head>
   <body>
-    <h1>Meine schwarze Überschrift</h1>
-    <p>Hier ist der Inhalt der Webseite.</p>
+    <header>
+      <h1>Meine schwarze Überschrift</h1>
+      <nav class="hamburger-menu">
+        <img src="images/hamburger.ico">
+        <ul>
+          <li><a href="#">Option 1</a></li>
+          <li><a href="#">Option 2</a></li>
+          <li><a href="#">Option 3</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="spielbrett" id="spielbrett">
+      <p>Hier ist der Inhalt der Webseite.</p>
+      <img src="images/spielbrett.jpg" style="width:100%;height:auto">
+    </section>
   </body>
 </html>
