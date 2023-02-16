@@ -11,6 +11,7 @@ h1 {
     background-color: black;
     size: 3em;
     padding: 1em;
+    text-align: center;
 }
 .menu{
     background-color: aquamarine;
@@ -21,9 +22,13 @@ h1 {
 nav{
     background-color: darkolivegreen;
     color: black;
+    text-align: center; 
 }
 #copyright{
     background-color: darkolivegreen;
     color: black;
     size: 0.3em;
+}
+footer{
+    text-align: center;
 }
