@@ -9,7 +9,7 @@
     <title>Beispiel-Webseite</title>
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-    <script src="js/index.js"></script>
+    <script src="js/start.js"></script>
     <noscript>"Sorry aber dein Browser unterstützt leider kein JavaScript!"</noscript>
   </head>
   <body>
@@ -23,5 +23,28 @@
         </p>
       </nav>
     </header>
-    </body>
+    <center>
+      <form method="get" id="form-newgame">
+        <label for="player">Players</label>
+        <input type="number" id="players-count" name="players" required autofocus min="1" max="4" 
+        value="0" onchange="checkplayercount()">
+        <!-- Wird wsl. nicht benötigt aber will ich noch nicht löschen
+        <div hidden>
+        <p hidden>Color:</p><br>
+          <label for="player1-color">Player 1</label>
+          <label for="player2-color" hidden>Player 2</label>
+          <label for="player3-color" hidden>Player 3</label>
+          <label for="player4-color" hidden>Player 4</label>
+        <br hidden>
+          <input type="color" id="player1-color" disabled="true">
+          <input type="color" id="player2-color" disabled="true" hidden>
+          <input type="color" id="player3-color" disabled="true" hidden>
+          <input type="color" id="player4-color" disabled="true" hidden>
+        </div>
+        -->
+        <br><br>
+        <input type="submit" id="submit-newgame" value="Create New Game" >
+    </center>
+    </form>
+  </body>
 </html>
