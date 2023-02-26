@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Beispiel-Webseite</title>
-    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/start.css">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <script src="js/start.js"></script>
     <noscript>"Sorry aber dein Browser unterstützt leider kein JavaScript!"</noscript>
@@ -26,26 +26,21 @@
     <center>
       <form method="get" id="form-newgame">
         <label for="player">Players</label>
-        <input type="number" id="players-count" name="players" required autofocus min="1" max="4" 
+        <input type="number" id="playerscount" required autofocus min="1" max="4" 
         value="0" onchange="checkplayercount()">
         <p>Player Count:</p>
         <p id="changetoplayercount">-1</p>
-        <!-- Wird wsl. nicht benötigt aber will ich noch nicht löschen
-        <div hidden>
-        <p hidden>Color:</p><br>
-          <label for="player1-color">Player 1</label>
-          <label for="player2-color" hidden>Player 2</label>
-          <label for="player3-color" hidden>Player 3</label>
-          <label for="player4-color" hidden>Player 4</label>
-        <br hidden>
-          <input type="color" id="player1-color" disabled="true">
-          <input type="color" id="player2-color" disabled="true" hidden>
-          <input type="color" id="player3-color" disabled="true" hidden>
-          <input type="color" id="player4-color" disabled="true" hidden>
-        </div>
-        -->
+          <label for="colorplayer1" id="colorplayer1" hidden>Player 1:</label>
+          <label for="colorplayer2" id="colorplayer2" hidden>Player 2:</label>
+          <label for="colorplayer3" id="colorplayer3" hidden>Player 3:</label>
+          <label for="colorplayer4" id="colorplayer4" hidden>Player 4:</label>
+        <br>
+          <input type="color" id="colorplayer1" name="colorplayer1" value="#FF0000" hidden>
+          <input type="color" id="colorplayer2" name="colorplayer2" value="#11FF00" hidden>
+          <input type="color" id="colorplayer3" name="colorplayer3" value="#FFFF00" hidden>
+          <input type="color" id="colorplayer4" name="colorplayer4" value="#0000FF" hidden>
         <br><br>
-        <input type="submit" id="submit-newgame" value="Create New Game" >
+        <input type="submit" id="submit-newgame" value="Create New Game">
     </center>
     </form>
   </body>
