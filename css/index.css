@@ -1,34 +1,35 @@
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: #363636;
     color: rgb(0, 0, 0);
 }
 h1 {
     color: rgb(0, 0, 0);
-    background-color: white;
+    text-align: center;
     size: 2em;
   }
 .heading{
-    background-color: black;
     size: 3em;
     padding: 1em;
     text-align: center;
 }
 .menu{
-    background-color: rgb(57, 146, 117);
     color: black;
     size: 1em;
     text-align: center;
 }
 nav{
-    background-color: darkolivegreen;
     color: black;
     text-align: center; 
 }
+#footer1{
+    color: black;
+    text-align: center;
+}
 #copyright{
-    background-color: darkolivegreen;
     color: black;
     size: 0.3em;
+    text-align: left;
 }
 footer{
-    text-align: center;
+    background-color: #FFFFFF;
 }
