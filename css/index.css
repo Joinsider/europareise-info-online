@@ -24,6 +24,7 @@ nav{
 .footer1{
     color: black;
     text-align: center;
+    word-spacing: 3em;
 }
 #copyright{
     color: black;
@@ -31,6 +32,9 @@ nav{
     text-align: left;
 }
 footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
     background-color: #FFFFFF;
 }
 
